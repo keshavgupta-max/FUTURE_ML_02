@@ -2,3 +2,9 @@ streamlit
 scikit-learn
 joblib
 nltk
+streamlit
+scikit-learn
+joblib
+nltk
+fastapi
+uvicorn

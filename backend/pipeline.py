@@ -35,8 +35,12 @@ def clean_ticket_text(text):
     return " ".join(cleaned_tokens)
 
 def load_ml_pipeline():
-    # Looks up one level to find the saved_models folder relative to backend directory
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    # Gets the directory where pipeline.py sits (backend/)
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    # Goes up one level to the root directory (FUTURE_ML_02/)
+    base_dir = os.path.dirname(current_dir)
+    
+    # Points to the absolute path of the root saved_models folder
     models_dir = os.path.join(base_dir, 'saved_models')
     
     vectorizer = joblib.load(os.path.join(models_dir, 'vectorizer.pkl'))

@@ -30,7 +30,7 @@ FUTURE_ML_02/
 └── README.md             # Project documentation
 
 Here is the visual mapping of the microservice structure:
-![Project Architecture Framework](assets/Screenshot 2026-07-05 120356.png)
+![Project Architecture Framework](assets/Screenshot%202026-07-05%20120356.png)
 
 The following screenshot shows successful machine learning inference endpoints running live:
-![API Implementation Interface](assets/Screenshot 2026-07-05 120625.png)
+![API Implementation Interface](assets/Screenshot%202026-07-05%20120625.png)

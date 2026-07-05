@@ -28,8 +28,6 @@ FUTURE_ML_02/
 ├── tickets_history.db    # Dynamic local relational database instance
 ├── requirements.txt      # Project environment dependencies
 └── README.md             # Project documentation
+<img width="1135" height="518" alt="Screenshot 2026-07-05 120625" src="https://github.com/user-attachments/assets/e2f50531-db44-40d2-8178-8dee58022424" />
+<img width="1522" height="742" alt="Screenshot 2026-07-05 120356" src="https://github.com/user-attachments/assets/c35a2e3e-a817-4270-88fc-92a5be81b063" />
 
-Here is the visual mapping of the microservice structure:
-![image alt](https://github.com/keshavgupta-max/FUTURE_ML_02/blob/main/assets/Screenshot%202026-07-05%20120356.png?raw=true)
-
-The following screenshot shows successful machine learning inference endpoints running live:
